@@ -1,0 +1,59 @@
+body {
+    background: rgb(24, 24, 24);
+  }
+.coloum{
+   
+    margin: 10%; 
+     width: 18.75rem;
+     height: 18.75rem;
+     background: rgb(35, 35, 35);
+     border-style: solid;
+     border-radius: 10%;
+     border-color:#01fe87;
+     
+     
+ }
+ .content{
+     font-size: 1.875rem;
+     
+     text-align: center;
+     top: 30%;
+     margin-top: -0.625em;
+     position: relative;
+ }
+ .coloum h1{
+     color: #01fe87;
+     text-align: left;
+     margin-left: 10%;
+     margin-top: 10%;
+     font-size: 3rem;
+ }
+ 
+ .coloum p{
+     color: white;
+ }
+   .lable{
+      
+       margin: 10%;
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;  /*это самое важное перевод на новуу строку */
+ 
+   }
+   .info{
+    display: flex;
+    margin: 1rem;
+       
+}
+nav h1{
+   margin-left: 5%;
+    color:#01fe87;
+  
+}
+.line{
+    margin-left: 5%;
+    width: 90%;
+    height: 0.2rem;
+    border-radius: 2rem;
+    background: #01fe87;
+}
