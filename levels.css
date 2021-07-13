@@ -1,3 +1,11 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
 body {
     background: rgb(24, 24, 24);
   }
@@ -9,6 +17,7 @@ body {
      background: rgb(35, 35, 35);
      border-style: solid;
      border-radius: 10%;
+     
      border-color:#01fe87;
      
      
@@ -19,6 +28,7 @@ body {
      text-align: center;
      top: 30%;
      margin-top: -0.625em;
+     
      position: relative;
  }
  .coloum h1{
@@ -30,6 +40,7 @@ body {
  }
  
  .coloum p{
+     
      color: white;
  }
    .lable{
@@ -40,13 +51,17 @@ body {
        flex-wrap: wrap;  /*это самое важное перевод на новуу строку */
  
    }
-   .info{
-    display: flex;
+
+
+.info{
+    display: flex; 
     margin: 1rem;
-       
 }
-nav h1{
-   margin-left: 5%;
+
+nav a h1{
+   
+   margin-left: 10vh;
+   margin-right: 5vh;
     color:#01fe87;
   
 }
@@ -56,4 +71,7 @@ nav h1{
     height: 0.2rem;
     border-radius: 2rem;
     background: #01fe87;
+}
+a{
+    text-decoration: none;
 }

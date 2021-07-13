@@ -17,21 +17,25 @@ main {
  main h1{
      color: #01fe87;
  }
-.info{
-     display: flex;
-     margin: 1rem;
-        
- }
- nav h1{
-    margin-left: 5%;
-     color:#01fe87;
-   
- }
- .line{
-     margin-left: 5%;
-     width: 90%;
-     height: 0.2rem;
-     border-radius: 2rem;
-     background: #01fe87;
- }
+ .info{
+  display: flex;
+  margin: 1rem;
+     
+}
+nav a h1{
  
+ margin-left: 10vh;
+ margin-right: 5vh;
+  color:#01fe87;
+
+}
+.line{
+  margin-left: 5%;
+  width: 90%;
+  height: 0.2rem;
+  border-radius: 2rem;
+  background: #01fe87;
+}
+a{
+  text-decoration: none;
+}
