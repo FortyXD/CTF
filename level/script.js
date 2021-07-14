@@ -6,7 +6,7 @@ function myFunction() {
   
     if (a==="mguStego))"){
         alert("Correct")
-        window.location.href="../level2/level.html";
+        window.location.href="../CTF/level2/level.html";
     }
     else{ 
       alert("Uncorrect")
